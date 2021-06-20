@@ -22,7 +22,7 @@ export default {
    } ,
    methods:{
        fetchCharacter(id){
-           fetch(`https://swapi.co/api/people/${id}`,{
+           fetch(`https://anapioficeandfire.com/api/characters/583${id}`,{
                method:'GET'
            })
            .then(response => response.json())
