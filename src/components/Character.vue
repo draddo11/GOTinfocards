@@ -3,10 +3,13 @@
         <div class ='character-card'>
             <div class='card-block'>
             <h4 class='card-title'>{{character.name}}</h4>
-            <p class='card-text'>Height:{{character.height}}cm</p>
-            <p class='card-text'>Mass:{{character.mass}}kg</p>
-            <p class='card-text'>Hair Color:{{character.hair_color}}</p>
-            <p class='card-text'>Eye Color:{{character.eye_color}}</p>
+            <p class='card-text'> Gender:{{character.gender}}</p>
+            <p class='card-text'>Born:{{character.born}}</p>
+            <p class='card-text'>Titles:{{character.titiles}}</p>
+            <p class='card-text'>Aliases:{{character.aliases}}</p>
+            <p class='card-text'>Played By:{{character.playedby}}</p>
+            <p class='card-text'>TV Series:{{character.tvseries}}</p>
+            <h4 class='card-title'>Naaamm{{character.name}}</h4>
 
             </div>
         </div>
@@ -22,14 +25,14 @@ export default {
    } ,
    methods:{
        fetchCharacter(id){
-           fetch(`https://anapioficeandfire.com/api/characters/583${id}`,{
+           fetch(`https://anapioficeandfire.com/api/characters/${id}`,{
                method:'GET'
            })
            .then(response => response.json())
            .then(json => this.character=json)
        },
        switchCharacter(){
-           let random_id = Math.floor(Math.random() * 83) + 1
+           let random_id = Math.floor(Math.random() * 538) + 1
            this.fetchCharacter(random_id)
        }
    }, 
