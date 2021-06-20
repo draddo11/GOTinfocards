@@ -21,7 +21,7 @@ export default {
   data(){
     return{
       title:
-      'Generate Your Team',
+      ' Random Personality Cards From Game Of Thrones',
        initial_ids:[1,3,4]
     }
  }, 

@@ -5,10 +5,10 @@
             <h4 class='card-title'>{{character.name}}</h4>
             <p class='card-text'> Gender:{{character.gender}}</p>
             <p class='card-text'>Born:{{character.born}}</p>
-            <p class='card-text'>Titles:{{character.titiles}}</p>
+            <p class='card-text'>Titles:{{character.titles}}</p>
             <p class='card-text'>Aliases:{{character.aliases}}</p>
-            <p class='card-text'>Played By:{{character.playedby}}</p>
-            <p class='card-text'>TV Series:{{character.tvseries}}</p>
+            <p class='card-text'>Played By:{{character.playedBy}}</p>
+            <p class='card-text'>TV Series:{{character.tvSeries}}</p>
             <h4 class='card-title'>Naaamm{{character.name}}</h4>
 
             </div>
