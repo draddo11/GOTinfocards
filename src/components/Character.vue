@@ -9,7 +9,7 @@
             <p class='card-text'>Aliases:{{character.aliases}}</p>
             <p class='card-text'>Played By:{{character.playedBy}}</p>
             <p class='card-text'>TV Series:{{character.tvSeries}}</p>
-            <h4 class='card-title'>Naaamm{{character.name}}</h4>
+            <p class='card-title'>Culture:{{character.culture}}</p>
 
             </div>
         </div>
