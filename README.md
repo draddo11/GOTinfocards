@@ -1,6 +1,6 @@
-# starwars 
+# GOT Character cards
 
-## Link : https://starwars11.netlify.com/ 
+## Link : 
 ## Project setup
 ```
 npm install

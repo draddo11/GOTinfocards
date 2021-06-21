@@ -1,5 +1,6 @@
 <template>
     <div class='col-md-4' @click='switchCharacter'>
+            click on card for more characters
         <div class ='character-card'>
             <div class='card-block'>
             <h4 class='card-title'>{{character.name}}</h4>
