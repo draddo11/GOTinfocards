@@ -1,6 +1,6 @@
 # GOT Character cards
 
-## Link : 
+## Link : https://gameofthronesinfo.netlify.app/
 ## Project setup
 ```
 npm install
